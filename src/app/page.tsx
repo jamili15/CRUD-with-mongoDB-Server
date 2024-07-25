@@ -43,6 +43,7 @@ const Home: FC = () => {
       console.error("Error adding note:", error);
     }
   };
+
   const deleteClick = async (id: number) => {
     try {
       const response = await fetch(
